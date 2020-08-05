@@ -1,4 +1,7 @@
 # IBM HR Analytics
+
+![0_29FuxZ_l0PpBYgC2](https://user-images.githubusercontent.com/45563371/89464320-d7000d00-d7a2-11ea-996a-7d3ce3540711.jpeg)
+
 ## Project Outline
 A HR department receives thousands of resumes on a daily basis and evaluates them manually to shortlist candidates for a first-round interview. This is done by assessing if candidates have the right skills and experience, as well as the key qualities and traits required for a position. 
 
