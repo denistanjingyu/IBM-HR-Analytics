@@ -38,7 +38,7 @@ rpart.plot(cart3.opt.ibm3)
 cart3.opt.ibm3$variable.importance
 
 # Keep the current employees
-#Run logistic regression for those not terminated 
+# Run logistic regression for those not terminated 
 ibm.m2 <- glm(Attrition ~ MonthlyIncome + PercentSalaryHike + TrainingTimesLastYear + BusinessTravel + OverTime + StockOptionLevel + EnvironmentSatisfaction + JobSatisfaction + JobInvolvement + RelationshipSatisfaction + WorkLifeBalance, family = binomial, data = ibm1)
 summary(ibm.m2)
 vif(ibm.m2)
