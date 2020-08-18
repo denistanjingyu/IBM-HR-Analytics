@@ -39,7 +39,7 @@ vif(ibm.m7)
 ibm3 <- ibm[ibm$Attrition == 'Current employee']
 dim(ibm3)
 
-#Run the CART model to profile current employees to Departments
+# Run the CART model to profile current employees to Departments
 cart3.ibm3 <- rpart(Department ~ Age + Department + DistanceFromHome + Education + EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus +AverageTenure + TotalWorkingYears, 
                     data = ibm3, 
                     method = "class", 
@@ -51,7 +51,7 @@ rpart.plot(cart3.opt.ibm3)
 cart3.opt.ibm3$variable.importance
 
 # Keep the current employees
-#Run logistic regression for those not terminated 
+# Run logistic regression for those not terminated 
 ibm.m2 <- glm(Attrition ~ MonthlyIncome+ PercentSalaryHike + TrainingTimesLastYear + BusinessTravel + OverTime + StockOptionLevel + EnvironmentSatisfaction + JobSatisfaction + JobInvolvement + RelationshipSatisfaction + WorkLifeBalance, 
               family = binomial, 
               data = ibm1)
