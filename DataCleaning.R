@@ -43,10 +43,12 @@ dim(ibm3)
 cart3.ibm3 <- rpart(Department ~ Age + Department +DistanceFromHome + Education +EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus +AverageTenure + TotalWorkingYears, 
                     data = ibm3, 
                     method = "class", 
-                    control = rpart.control(minsplit = 500, cp = 0))
+                    control = rpart.control(minsplit = 500, 
+                                            cp = 0))
 rpart.plot(cart3.ibm3)
 plotcp(cart3.ibm3)
-cart3.opt.ibm3 <- prune(cart3.ibm3, cp = 0.0022)
+cart3.opt.ibm3 <- prune(cart3.ibm3, 
+                        cp = 0.0022)
 rpart.plot(cart3.opt.ibm3)
 cart3.opt.ibm3$variable.importance
 
