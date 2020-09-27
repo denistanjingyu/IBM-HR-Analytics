@@ -6,7 +6,7 @@ sum((ibm1$Attrition == 'Voluntary Resignation') & (ibm1$Department == 'Sales')) 
 
 # Aside: IBM2- Find Out Why these People Get Terminated
 # Run logistic regression for those terminated against the info we will have during selection stage
-ibm.m8 <- glm(Attrition ~ Age + Department +DistanceFromHome + Education +EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus +AverageTenure + TotalWorkingYears, 
+ibm.m8 <- glm(Attrition ~ Age + Department + DistanceFromHome + Education + EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus +AverageTenure + TotalWorkingYears, 
               family = binomial, 
               data = ibm2)
 summary(ibm.m8)
@@ -19,7 +19,7 @@ vif(ibm.m9)
 
 # Shortlist candidates with info we have at the selection stage:
 # Run logistic regression for those not terminated against the info we will have during selection stage
-ibm.m5 <- glm(Attrition ~ Age + Department + DistanceFromHome + Education + EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus + AverageTenure + TotalWorkingYears, 
+ibm.m5 <- glm(Attrition ~ Age + Department + DistanceFromHome + Education + EducationField + `Employee Source` + Gender + JobRole + MaritalStatus + AverageTenure + TotalWorkingYears, 
               family = binomial, 
               data = ibm1)
 summary(ibm.m5)
@@ -40,7 +40,7 @@ ibm3 <- ibm[ibm$Attrition == 'Current employee']
 dim(ibm3)
 
 # Run the CART model to profile current employees to Departments
-cart3.ibm3 <- rpart(Department ~ Age + Department +DistanceFromHome + Education +EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus +AverageTenure + TotalWorkingYears, 
+cart3.ibm3 <- rpart(Department ~ Age + Department + DistanceFromHome + Education +EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus +AverageTenure + TotalWorkingYears, 
                     data = ibm3, 
                     method = "class", 
                     control = rpart.control(minsplit = 500, 
