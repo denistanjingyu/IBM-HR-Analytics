@@ -1,5 +1,5 @@
 # To show High Turnover Volatility in the Sales Department
-# This shows that RnD Department has the highest proportion of employees who voluntarily resigned
+# This shows that R&D Department has the highest proportion of employees who voluntarily resigned
 sum((ibm1$Attrition == 'Voluntary Resignation') & (ibm1$Department == 'Human Resources')) / sum(ibm1$Department == 'Human Resources')
 sum((ibm1$Attrition == 'Voluntary Resignation') & (ibm1$Department == 'Research & Development')) / sum(ibm1$Department == 'Research & Development')
 sum((ibm1$Attrition == 'Voluntary Resignation') & (ibm1$Department == 'Sales')) / sum(ibm1$Department == 'Sales')
