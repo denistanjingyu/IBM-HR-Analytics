@@ -6,7 +6,7 @@ sum((ibm1$Attrition == 'Voluntary Resignation') & (ibm1$Department == 'Sales')) 
 
 # Aside: IBM2 - Find Out Why these People Get Terminated
 # Run logistic regression for those terminated against the info we will have during selection stage
-ibm.m8 <- glm(Attrition ~ Age + Department + DistanceFromHome + Education + EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus +AverageTenure + TotalWorkingYears, 
+ibm.m8 <- glm(Attrition ~ Age + Department + DistanceFromHome + Education + EducationField + `Employee Source`+ Gender + JobRole + MaritalStatus + AverageTenure + TotalWorkingYears, 
               family = binomial, 
               data = ibm2)
 summary(ibm.m8)
