@@ -332,5 +332,113 @@ Surji, Kemal. (2013). The Negative Effect and Consequences of Employee Turnover 
 The global skills mismatch. (2019). Retrieved November 11, 2019, from https://www.thestar.com.my/news/education/2019/08/18/the-global-skills-mismatch
 
 ## Appendices
+### Appendix A-1: Education Requirements for Pharmaceutical Chemists
+![image](https://user-images.githubusercontent.com/45563371/115513811-141b1980-a2b6-11eb-9432-fc6bef81dddd.png)
 
+### Appendix A-2: Ranking of Industrial Sectors by Overall Sector R&D Intensity
+![image](https://user-images.githubusercontent.com/45563371/115513933-2eed8e00-a2b6-11eb-9624-3c5dcb44731f.png)
 
+### Appendix A-3: Phases of the Research and Development Process
+![image](https://user-images.githubusercontent.com/45563371/115513949-31e87e80-a2b6-11eb-98ad-6c1ba4c304f6.png)
+
+### Appendix B: Segmentation of Variables
+![image](https://user-images.githubusercontent.com/45563371/115514103-5c3a3c00-a2b6-11eb-8f52-53de257f17f7.png)
+
+### Appendix C-1: Univariate Analysis of Attrition
+![image](https://user-images.githubusercontent.com/45563371/115514140-63f9e080-a2b6-11eb-8be4-653ba554a834.png)
+
+### Appendix C-2: Univariate Analysis of Age
+![image](https://user-images.githubusercontent.com/45563371/115514149-66f4d100-a2b6-11eb-8a8a-fbb43ee42287.png)
+
+### Appendix C-3: Univariate Analysis of Department
+![image](https://user-images.githubusercontent.com/45563371/115514157-69572b00-a2b6-11eb-9eb2-d5a5a0e0930d.png)
+
+![image](https://user-images.githubusercontent.com/45563371/115514194-6e1bdf00-a2b6-11eb-8963-81bf5e4e3484.png)
+
+### Appendix C-4: Univariate Analysis of JobRole
+![image](https://user-images.githubusercontent.com/45563371/115514203-707e3900-a2b6-11eb-8497-74844d094741.png)
+
+### Appendix C-5: Univariate Analysis of Education, faceted by EducationField
+![image](https://user-images.githubusercontent.com/45563371/115514228-783ddd80-a2b6-11eb-8c50-b4fa16db7613.png)
+
+### Appendix C-6: Univariate Analysis of Gender
+![image](https://user-images.githubusercontent.com/45563371/115514249-7d9b2800-a2b6-11eb-8fb7-88152b65fb1c.png)
+
+### Appendix D-1: Analysis of Voluntary Resignation due to OverTime
+![image](https://user-images.githubusercontent.com/45563371/115514256-7ffd8200-a2b6-11eb-87f1-4ec9f29023b8.png)
+
+### Appendix D-2: Analysis of Voluntary Resignation due to JobInvolvement
+![image](https://user-images.githubusercontent.com/45563371/115514263-812eaf00-a2b6-11eb-98f1-eddf8c110148.png)
+
+### Appendix D-3: Analysis of Voluntary Resignation due to JobSatisfaction
+![image](https://user-images.githubusercontent.com/45563371/115514273-83910900-a2b6-11eb-9dad-a007f6a643e5.png)
+
+### Appendix D-4: Analysis of Voluntary Resignation due to WorkLifeBalance
+![image](https://user-images.githubusercontent.com/45563371/115514279-84c23600-a2b6-11eb-92f4-323a8229e787.png)
+
+### Appendix D-5: Analysis of Voluntary Resignation due to BusinessTravel
+![image](https://user-images.githubusercontent.com/45563371/115514287-87bd2680-a2b6-11eb-9d6a-75d015d6a94b.png)
+
+### Appendix D-6: Analysis of Voluntary Resignation due to EmployeeSource
+![image](https://user-images.githubusercontent.com/45563371/115514298-8b50ad80-a2b6-11eb-8127-2c48de9ac7c2.png)
+
+### Appendix D-7: Analysis of Voluntary Resignation due to Education, Faceted by Department
+![image](https://user-images.githubusercontent.com/45563371/115514309-8db30780-a2b6-11eb-8d07-90cc06730c22.png)
+
+### Appendix D-8: Analysis of Voluntary Resignation due to PercentSalaryHike
+![image](https://user-images.githubusercontent.com/45563371/115514322-8f7ccb00-a2b6-11eb-9037-c2146d19788b.png)
+
+### Appendix D-9: Analysis of Voluntary Resignation due to MonthlyIncome
+![image](https://user-images.githubusercontent.com/45563371/115514333-91df2500-a2b6-11eb-8ebb-63a16cad70ac.png)
+
+### Appendix D-10: Analysis of Voluntary Resignation due to MonthlyIncome, Faceted by Education
+![image](https://user-images.githubusercontent.com/45563371/115514341-93a8e880-a2b6-11eb-980f-d4e79078e426.png)
+
+### Appendix E-1: Analysis of Termination due to PerformanceRating
+![image](https://user-images.githubusercontent.com/45563371/115514351-960b4280-a2b6-11eb-9386-f2bd6fd8e928.png)
+
+### Appendix E-2: Analysis of Termination due to PriorYearsOfExperience
+![image](https://user-images.githubusercontent.com/45563371/115514355-973c6f80-a2b6-11eb-9c74-12d406fad6f3.png)
+
+### Appendix E-3: Analysis of Termination due to AverageTenure
+![image](https://user-images.githubusercontent.com/45563371/115514367-999ec980-a2b6-11eb-8b52-6cc22ca80c20.png)
+
+### Appendix F-1: Table of 𝜷 values for Logistic Model 1
+![image](https://user-images.githubusercontent.com/45563371/115514436-ac190300-a2b6-11eb-9e3e-9c8971e449ea.png)
+
+![image](https://user-images.githubusercontent.com/45563371/115514596-d7035700-a2b6-11eb-8794-29ea52d5998a.png)
+
+### Appendix F-2: Summary of Logistic Regression Model 1
+![image](https://user-images.githubusercontent.com/45563371/115514630-e1255580-a2b6-11eb-8ac5-80360867de04.png)
+
+### Appendix F-3: GVIF of Logistic Regression Model 1
+![image](https://user-images.githubusercontent.com/45563371/115514641-e4204600-a2b6-11eb-9030-726f1833c4f8.png)
+
+### Appendix F-4: Odds Ratio Confidence Interval of Logistic Regression Model 1
+![image](https://user-images.githubusercontent.com/45563371/115514649-e682a000-a2b6-11eb-8ae9-0a61b798c516.png)
+
+### Appendix F-5: Confusion Matrix of Final Logistic Regression Model with Threshold of 0.157
+![image](https://user-images.githubusercontent.com/45563371/115514658-e84c6380-a2b6-11eb-892f-b28ca7968a01.png)
+
+### Appendix F-6: Confusion Matrix of Final Logistic Regression Model with Threshold of 0.5
+![image](https://user-images.githubusercontent.com/45563371/115514662-ea162700-a2b6-11eb-9b7c-d66b89221f46.png)
+
+### Appendix G: Linking Classification Model Error Metrics to Business Problems
+![image](https://user-images.githubusercontent.com/45563371/115514803-116cf400-a2b7-11eb-92f9-6b1b4b2a2e7e.png)
+
+### Appendix H: Variance Importance for the CART Model
+![image](https://user-images.githubusercontent.com/45563371/115514812-15007b00-a2b7-11eb-9123-aa996788bd0d.png)
+
+### Appendix I-1: Table of 𝜷 Values for Logistic Model 2
+![image](https://user-images.githubusercontent.com/45563371/115514932-3497a380-a2b7-11eb-887f-568964c24fbd.png)
+
+![image](https://user-images.githubusercontent.com/45563371/115514999-437e5600-a2b7-11eb-81fc-da93c3588aad.png)
+
+### Appendix I-2: Summary of Logistic Regression Model 2
+![image](https://user-images.githubusercontent.com/45563371/115515012-4711dd00-a2b7-11eb-9c2f-24997fa155ab.png)
+
+### Appendix I-3: GVIF of Logistic Regression Model 2
+![image](https://user-images.githubusercontent.com/45563371/115515026-49743700-a2b7-11eb-9b3b-06311f647047.png)
+
+### Appendix I-4: Odds Ratio Confidence Intervals of Logistic Regression Model 2
+![image](https://user-images.githubusercontent.com/45563371/115515033-4c6f2780-a2b7-11eb-81bd-c40e6fbf7ada.png)
