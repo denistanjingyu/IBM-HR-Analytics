@@ -1,6 +1,6 @@
 # IBM HR Analytics
 
-![0_29FuxZ_l0PpBYgC2](https://user-images.githubusercontent.com/45563371/89464320-d7000d00-d7a2-11ea-996a-7d3ce3540711.jpeg)
+<p align="center"><img src="https://user-images.githubusercontent.com/45563371/89464320-d7000d00-d7a2-11ea-996a-7d3ce3540711.jpeg" /></p>
 
 ## Project Outline
 A HR department receives thousands of resumes on a daily basis and evaluates them manually to shortlist candidates for a first-round interview. This is done by assessing if candidates have the right skills and experience, as well as the key qualities and traits required for a position. 
@@ -143,14 +143,14 @@ Next, the team has deemed it equally important to retain employees after identif
 ### Data Cleaning
 Before the team can proceed with utilising the data set and conducting analysis to derive insights and trends, data cleaning would have to be performed.
 
-![image](https://user-images.githubusercontent.com/45563371/115510846-cd77f000-a2b2-11eb-801e-695306019987.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/45563371/115510846-cd77f000-a2b2-11eb-801e-695306019987.png" /></p>
 
 The final cleaned data set is exported in a CSV format and used subsequently for our analysis in the later parts of the project.
 
 ### Feature Engineering
 Feature engineering enables us to generate deeper insights and create better machine learning models by decomposing or aggregating features to create new features. Through feature engineering, we are able to integrate domain knowledge and expertise into our model construction process resulting in better model performance.
 
-![image](https://user-images.githubusercontent.com/45563371/115511055-ff895200-a2b2-11eb-8908-0b9dea322cdb.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/45563371/115511055-ff895200-a2b2-11eb-8908-0b9dea322cdb.png" /></p>
 
 ## Exploratory Data Analysis
 Firstly, the proportion of terminated employees is too small to result in any significant modeling or to have any predictive value. Also, the proportion of current employees is large to the extent that we felt it might skew results. In order to solve this, we split the data into IBM1 and IBM2 where IBM1 focuses on current employees and those who have voluntarily resigned. IBM1 is the main focus of our analysis - it is what the company ‘wants’. It includes current employees - since they are still working, IBM deems them the right person for the right job, as well as those who resigned. Basically, those who resigned are the right people according to IBM but the employees themselves feel a need to leave the company, be it for unsatisfactory conditions or better opportunities elsewhere. Therefore, we are using IBM1 to find out the variables which would indicate/suggest how to keep the right person for the right job. IBM2 has current employees and those who were terminated. We are using IBM2 to find out what variables cause termination – which is the employees whom the company deems as a mismatch (the wrong person for the wrong job).
@@ -158,7 +158,7 @@ Firstly, the proportion of terminated employees is too small to result in any si
 ### Univariate Analysis
 We will be looking at key demographic aspects of the entire company’s employees to gain a better understanding of their profiles.
 
-![image](https://user-images.githubusercontent.com/45563371/115510575-7d009280-a2b2-11eb-81bc-7968a3060c08.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/45563371/115510575-7d009280-a2b2-11eb-81bc-7968a3060c08.png" /></p>
 
 ### Multivariate Analysis
 In this section, relationships between multiple variables will be analysed. The multivariate analysis serves as a useful tool to highlight patterns and relationships between different variables. It assists us in filtering out variables that have little to no relationship with the outcome variable and set the stage for the model construction phase. Useful hypotheses can be formed through multivariate analysis coupled with domain knowledge which will help in the feature selection process instead of just lumping all variables into the model.
@@ -203,7 +203,11 @@ In formulating our logistic model, we first used our domain knowledge and narrow
 
 The final model was obtained after various changes were made to the initial model. Each variable was removed one by one and the performance metrics of the model were monitored. This process is iterated until the model with the best performance was achieved. The team used a cut-off of p-value < 0.05 to determine the significance level and ensured that the Odds Ratio Confidence Intervals did not contain 1. Generalized variance-inflation factors (GVIF) of the models were all below 2 which indicated that there were no issues of multicollinearity.  Based on the above-mentioned criteria, the final logistic regression model equation is as follows (see Appendix F-1):
 
-log₁(Attrition) = 𝜷₀ + 𝜷₁Age + 𝜷₂DepartmentResearch&Development + 𝜷₃DepartmentSales + 𝜷₄DistanceFromHome + 𝜷₅JobRoleHuman Resources + 𝜷₆JobRoleLaboratory Technician + 𝜷₇JobRoleManager + 𝜷₈JobRoleManufacturing Director + 𝜷₉JobRoleResearch Director + 𝜷₁₀JobRoleResearch Scientist + 𝜷₁₁JobRoleSales Executive + 𝜷₁₂JobRoleSales Representative + 𝜷₁₃MarialStatusMarried + 𝜷₁₄MaritalStatusSingle + 𝜷₁₅AverageTenure + 𝜷₁₆PriorYearsOfExperience
+<p align="center">
+ log₁(Attrition) = 𝜷₀ + 𝜷₁Age + 𝜷₂DepartmentResearch&Development + 𝜷₃DepartmentSales + 𝜷₄DistanceFromHome + 𝜷₅JobRoleHuman Resources + 𝜷₆JobRoleLaboratory Technician +
+ 𝜷₇JobRoleManager + 𝜷₈JobRoleManufacturing Director + 𝜷₉JobRoleResearch Director + 𝜷₁₀JobRoleResearch Scientist + 𝜷₁₁JobRoleSales Executive + 𝜷₁₂JobRoleSales Representative +
+ 𝜷₁₃MarialStatusMarried + 𝜷₁₄MaritalStatusSingle + 𝜷₁₅AverageTenure + 𝜷₁₆PriorYearsOfExperience
+</p>
 
 The team had to decide on a threshold level for the logistic regression model. During the model construction stage, the team found out that the accuracy of the model drops when the threshold level is lowered. This was due to the fact that as the threshold level is increased, the stricter the model would be with classifying an employee as likely to voluntary resign. As the threshold level increased, the number of false negatives increased while the number of false positives decreased. The threshold level to be used for the logistic regression model depends largely on our business problems (see Appendix X). Given that we are more concerned about false negatives compared to false positives, the metric that we are more concerned with is recall instead of precision. This is in line with the idea that missing out on potential talented candidates is less detrimental compared to hiring candidates that will eventually resign. Furthermore, the team realised a potential trade-off between precision and recall. A model tuned to attain high precision usually suffers from a lower recall and vice versa (Precision and Recall, 2019). The team eventually settled on a threshold level of 0.157, which is equal to the proportion of voluntary resignation out of total attritions.
 
@@ -216,7 +220,7 @@ The CART model will be used to match candidates to the correct job openings base
 
 By profiling the current employees who are still with the company against their relevant attributes, we can predict which departments these shortlisted candidates are most suited for based on the information that is available to us in the selection stage. Our team defines most suited by looking at the department in which current employees are in and running the CART model against their attributes. 
 
-![image](https://user-images.githubusercontent.com/45563371/115511354-55f69080-a2b3-11eb-8b95-65fade71b9db.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/45563371/115511354-55f69080-a2b3-11eb-8b95-65fade71b9db.png" /></p>
 
 Due to the large size of current employees, the team decides to set the minimum split to 800 instead of the usual 2. This is to ensure that we get a reasonably sized optimal tree and each terminal node contains a fair percentage of the data. With reference to the plot above, we choose the cp value to be the case when the corresponding test set error is the minimum, which in this case is 0.001666. Hence, we should prune the maximal tree using cp = 0.001666. After pruning the maximal tree, the size of the optimal tree is 8 (Refer to the pdf file attached named “CART Optimal Tree”). After checking the variable importance, we realized that the top 3 most important variables are JobRole, followed by EducationField, and TotalWorkingYears. This suggests that if a shortlisted candidate’s attributes cannot reasonably fit into any of the profiles generated by the CART model, the company should pay more attention to these 3 variables when deciding which department to allocate the shortlisted candidates to.
 
@@ -225,7 +229,11 @@ Lastly, the team constructed another Logistic Regression model, plotting Attriti
 
 The final logistic regression model was obtained after removing variables based on their p-value and Odds Ratio Confidence Intervals that contained 1. GVIF of the models was ensured to be below 2. Based on the above mentioned criteria, the final logistic regression model is (see Appendix I-1):
 
-log₂(Attrition) = 𝜷₀ + 𝜷₁PercentSalaryHike + 𝜷₂BusinessTravelTravel_Frequently + 𝜷₃BusinessTravelTravel_Rarely + 𝜷₄OverTimeYes + 𝜷₅EnvironmentSatisfaction2 + 𝜷₆EnvironmentSatisfaction3 + 𝜷₇EnvironmentSatisfaction4 + 𝜷₈JobInvolvement2 + 𝜷₉JobInvolvement3 + 𝜷₁₀JobInvolvement4 + 𝜷₁₁RelationshipSatisfaction2 + 𝜷₁₂RelationshipSatisfaction3 + 𝜷₁₃RelationshipSatisfaction4 + 𝜷₁₄WorkLifeBalance2 + 𝜷₁₅WorkLifeBalance3 + 𝜷₁₆WorkLifeBalance4
+<p align="center">
+ log₂(Attrition) = 𝜷₀ + 𝜷₁PercentSalaryHike + 𝜷₂BusinessTravelTravel_Frequently + 𝜷₃BusinessTravelTravel_Rarely + 𝜷₄OverTimeYes + 𝜷₅EnvironmentSatisfaction2 +
+ 𝜷₆EnvironmentSatisfaction3 + 𝜷₇EnvironmentSatisfaction4 + 𝜷₈JobInvolvement2 + 𝜷₉JobInvolvement3 + 𝜷₁₀JobInvolvement4 + 𝜷₁₁RelationshipSatisfaction2 + 𝜷₁₂RelationshipSatisfaction3
+ + 𝜷₁₃RelationshipSatisfaction4 + 𝜷₁₄WorkLifeBalance2 + 𝜷₁₅WorkLifeBalance3 + 𝜷₁₆WorkLifeBalance4
+</p>
 
 This corroborates with our domain knowledge that the intangible aspects such as work-life balance and job satisfaction are important in increasing employee retention rates. A summary of the logistic model can be found in Appendix I-2.
 
