@@ -1,4 +1,4 @@
-# IBM HR Analytics
+# <center>**IBM HR Analytics**</center>
 
 ![0_29FuxZ_l0PpBYgC2](https://user-images.githubusercontent.com/45563371/89464320-d7000d00-d7a2-11ea-996a-7d3ce3540711.jpeg)
 
@@ -12,3 +12,5 @@ How might we leverage external data and non-traditional methods to accurately as
 Your team will propose and present your solution to the HR Dept. 
 
 Your solution may consists of several ideas or components. You will need to find at least one suitable dataset to demonstrate one idea or component. You are not expected to find perfect datasets or datasets that illustrate every idea. Your demonstration must include some techniques and models learnt in the course.
+
+
