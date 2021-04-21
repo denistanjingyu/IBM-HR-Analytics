@@ -28,6 +28,7 @@ Table of Contents :bookmark_tabs:
 - [Conclusion](#conclusion)
 - [References](#references)
 - [Appendices](#appendices)
+- [Code and Resources Used](#code-and-resources-used)
 
 ## Executive Summary
 Employee attrition, defined as the reduction of staff due to voluntary or involuntary reasons, has always been a problem for companies to deal with. High opportunity costs, amongst other business problems, arise out of employee turnover and prove detrimental for companies to deal with. Thus, this report attempts to investigate what goes wrong in the hiring process to cause high employee attrition and address the issue with the use of modern analytics to supplement the hiring process. 
@@ -442,3 +443,8 @@ The global skills mismatch. (2019). Retrieved November 11, 2019, from https://ww
 
 ### Appendix I-4: Odds Ratio Confidence Intervals of Logistic Regression Model 2
 ![image](https://user-images.githubusercontent.com/45563371/115515033-4c6f2780-a2b7-11eb-81bd-c40e6fbf7ada.png)
+
+## Code and Resources Used
+**R:** Version 3.6.1
+
+**Packages:** car, caret, caTools, corrplot, data.table, ggplot2, rpart, rpart.plot
