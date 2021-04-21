@@ -1,4 +1,4 @@
-# <center>**IBM HR Analytics**</center>
+# IBM HR Analytics
 
 ![0_29FuxZ_l0PpBYgC2](https://user-images.githubusercontent.com/45563371/89464320-d7000d00-d7a2-11ea-996a-7d3ce3540711.jpeg)
 
