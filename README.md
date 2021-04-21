@@ -13,4 +13,52 @@ Your team will propose and present your solution to the HR Dept.
 
 Your solution may consists of several ideas or components. You will need to find at least one suitable dataset to demonstrate one idea or component. You are not expected to find perfect datasets or datasets that illustrate every idea. Your demonstration must include some techniques and models learnt in the course.
 
+Table of Contents :bookmark_tabs:
+=================
+- [Executive Summary](#executive-summary)
+- [Introduction](#introduction)
+- [Business Analysis](#analytics-approach)
+- [Data Set](#data-preparation-and-understanding)
+- [Analytics Approach](#model-development-and-evaluation)
+- [Data Preparation and Understanding](#proposed-business-recommendations)
+- [Exploratory Data Analysis](#limitations)
+- [Model Construction and Evaluation](#future-work)
+- [Proposed Business Recommendations](#conclusion)
+- [Limitations](#references)
+- [Conclusion](#references)
+- [References](#references)
+- [Appendices](#references)
+- [Code and Resources Used](#code-and-resources-used)
 
+## Executive Summary
+
+## Introduction
+
+## Business Analysis
+
+## Data Set
+
+## Analytics Approach
+
+## Data Preparation and Understanding
+
+## Exploratory Data Analysis
+
+## Model Construction and Evaluation
+
+## Proposed Business Recommendations
+
+## Limitations
+
+## Conclusion
+
+## References
+
+## Appendices
+
+## Code and Resources Used
+**Python:** Version 3.7.10
+
+**Packages:** pandas, numpy, matplotlib, seaborn, category_encoders, tensorflow, xgboost, keras, sklearn
+
+**Dataset:** https://www.kaggle.com/anthonyku1031/nfwbs-puf-2016-data
