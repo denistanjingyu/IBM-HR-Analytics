@@ -17,18 +17,17 @@ Table of Contents :bookmark_tabs:
 =================
 - [Executive Summary](#executive-summary)
 - [Introduction](#introduction)
-- [Business Analysis](#analytics-approach)
-- [Data Set](#data-preparation-and-understanding)
-- [Analytics Approach](#model-development-and-evaluation)
-- [Data Preparation and Understanding](#proposed-business-recommendations)
-- [Exploratory Data Analysis](#limitations)
-- [Model Construction and Evaluation](#future-work)
-- [Proposed Business Recommendations](#conclusion)
-- [Limitations](#references)
-- [Conclusion](#references)
+- [Business Analysis](#business-analysis)
+- [Data Set](#data-set)
+- [Analytics Approach](#analytics-approach)
+- [Data Preparation and Understanding](#data-preparation-and-understanding)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Model Construction and Evaluation](#model-construction-and-evaluation)
+- [Proposed Business Recommendations](#proposed-business-recommendations)
+- [Limitations](#limitations)
+- [Conclusion](#conclusion)
 - [References](#references)
-- [Appendices](#references)
-- [Code and Resources Used](#code-and-resources-used)
+- [Appendices](#appendices)
 
 ## Executive Summary
 Employee attrition, defined as the reduction of staff due to voluntary or involuntary reasons, has always been a problem for companies to deal with. High opportunity costs, amongst other business problems, arise out of employee turnover and prove detrimental for companies to deal with. Thus, this report attempts to investigate what goes wrong in the hiring process to cause high employee attrition and address the issue with the use of modern analytics to supplement the hiring process. 
